@@ -1,0 +1,391 @@
+div.clear {
+	clear: both;
+}
+
+body {
+	font-family: 'Special Elite', helvetica, sans-serif; /* This is the font used in all non-paragraph text */
+	/* The following lines of code fix a known Google Chrome issue which occasionally won't render webfonts -  https://codestag.com/fix-google-chrome-web-fonts-issue/  */
+	-webkit-animation-duration: 0.1s;
+  	-webkit-animation-name: fontfix;
+  	-webkit-animation-iteration-count: 1;
+  	-webkit-animation-timing-function: linear;
+  	-webkit-animation-delay: 0.1s;
+}
+
+/* The following lines of code fix a known Google Chrome issue which occasionally won't render webfonts -  https://codestag.com/fix-google-chrome-web-fonts-issue/  */
+	@-webkit-keyframes fontfix {
+	  from { opacity: 1; }
+	  to { opacity: 1; }
+	}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Links */
+a {
+	color: #AB82FF; /* This sets the color of all links on site */
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+	border-bottom: 1px solid #AAAAAA;
+	background-color: white;
+	opacity: 0.95;
+	font-family: 'Special Elite', helvetica, sans-serif;
+}
+
+
+/* sets navbar link text color */ 
+.navbar .nav > li > a, 
+.navbar .nav > li > a { 
+	color: black;
+} 
+
+	/* set hover and focus to lightgrey */ 
+	.navbar .nav > li > a:focus, 
+	.navbar .nav > li > a:hover { 
+		/*background-color: lightgrey;*/
+		color: black;
+		text-decoration: underline;
+	} 
+
+.active { 
+	background-color: #F4F4F4;    /* this changes the background color of an "active" nav menu item */
+	text-decoration: underline;
+}
+
+/* These control the styling of the "Charlie Gigante" logo */
+.navbar-brand {
+	font-size: 1.25em;
+	font-weight: lighter;
+	margin: 0;
+	font-family: 'Special Elite', helvetica, sans-serif;
+	color: black;
+}
+
+.navbar-header .navbar-brand:hover,
+.navbar-header .navbar-brand:focus {
+     color: #AAAAAA;
+}
+
+
+
+.icon-bar {
+	border: 1px solid black;
+}
+
+
+
+/* Carousel Styling */
+#myCarousel { 
+	padding-top: 50px; /* This pushes the carousel 50px below the top of the screen so that it bumps up against the navbar*/
+}
+
+/* This centers the images in the carousel */
+.carousel-inner .item img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.carousel-caption {
+	font-family: 'Special Elite', helvetica, sans-serif;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+
+/* Main/Index page */
+.featurette-main1 {
+	background-color: #AB82FF;
+}
+
+.featurette-main2 {
+	background-color: #AAAAAA;
+}
+
+.featurette-main3 {
+	background-color: #9FB6CD;
+}
+
+.featurette-main1, .featurette-main2, .featurette-main3 {
+	min-height: 215px;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+	font-family: 'Special Elite', helvetica, sans-serif;
+	color: black;
+
+}
+	.featurette-main1>p, .featurette-main2>p, .featurette-main3>p {
+		font-size: 1.25em;
+	}
+
+	.featurette-main1:hover, .featurette-main2:hover, .featurette-main3:hover {
+		opacity: 0.7;
+	}
+
+
+
+
+/* About Me */
+.about-me-main {
+	/*background-color: #F4F4F4;*/
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.bio { /* This is the paragraph styling on the About Me page*/
+	font-size: 1.25em;
+}
+
+/* This is the square "About" image */
+.profile-pic {
+	float: left;
+	max-width: 250px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.well {
+	background-color: #F4F4F4;
+}
+
+.job-title, .text-muted {
+	/*color: #AB82FF;*/
+	color: #006699;
+}
+
+.job-dates {
+	color: #9FB6CD;
+}
+
+.fontchange-p {
+	font-family: 'Special Elite', helvetica, sans-serif;
+}
+
+
+/* My Work */
+.jumbotron {
+	background-color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+	.jumbotron-text {
+		line-height: 1.5em;
+	}
+
+.btn-success {
+	margin-bottom: 20px;
+}
+
+.panel-title {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.featurette-heading {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+
+/*Interests*/
+.jumbotron-interests {
+	max-height: 100px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+
+/* Image stylings with drop shadows */
+.img-about {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.img-small {
+	max-width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.img-screenshot {
+	max-width: 30%;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.img-small-carousel {
+	max-height: 300px;
+	margin: 0 auto;
+}
+
+/* This adds a buffer between links and the carousel in full page mode.*/
+#index-row {
+	margin-top: 60px;
+}
+
+li {
+	list-style: none;
+}
+
+
+.input-xxlarge {
+	min-height: 150px;
+}
+
+
+
+/* This centers all of the items in the row */
+.marketing .col-lg-4 {
+	text-align: center;
+}
+
+#about-col-lg-4 {
+	text-align: left;
+}
+
+/* ************* Footer styling *************** */
+
+footer {
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+	/*border-top: 2px solid #AAAAAA;*/
+	/*background: -webkit-linear-gradient(#AAAAAA, #FFFFFF);*/ /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(#AAAAAA, #FFFFFF);*/ /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(#AAAAAA, #FFFFFF);*/ /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(#AAAAAA, #FFFFFF);*/ /* Standard syntax (must be last) */
+
+
+	footer h6 {
+		text-align: center;
+	}
+
+
+.socialButtons { /* This is the DIV which contains the social buttons */
+	width: 100%;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+	.fb-div {
+		margin-top: 6px;
+		/*margin-bottom: 20px;*/
+	}
+
+	.googlePlus {
+		margin-top: 6px;
+		display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-left: 30px;
+	}
+
+
+
+
+/* The following media queries are to ensure the Bootstrap carousel text is responsive. (it previously was not) */
+
+@media all and (max-width:400px) {
+
+	#myCarousel {
+		display: none;
+	}
+
+	#myCarousel h1 {
+		font-size: 1em;
+	}
+	#myCarousel p {
+		font-size: .75em;
+	}
+	.btn-lg {
+		display: none;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	.soundcloud {
+	height: 200px;
+	}
+
+	.profile-pic {
+	float: left;
+	max-width: 100%;
+	padding-bottom: 10px;
+	}
+
+}
+
+
+@media all and (min-width:401px) {
+
+	#myCarousel h1 {
+		font-size: 1.2em;
+	}
+	#myCarousel p {
+		font-size: .9em;
+	}
+	.navbar-collapse {
+	float: left;
+	}
+	.soundcloud {
+	height: 300px;
+	}
+}
+
+
+@media all and (min-width:600px) {
+
+	#myCarousel h1 {
+		font-size: 2.5em;
+	}
+	#myCarousel p {
+		font-size: 1.5em;
+	}
+	.img-work { /* these are the main images on the work page (like will.i.am) */
+	max-width: 500px;
+	margin: 0 auto;
+	}
+	.navbar-nav li {
+		font-size: .8em; /* This ensures that when the browser width is narrowed, the nav links will shrink so they don't fall beneath the brand logo */
+	}
+	.soundcloud {
+	height: 550px;
+	}
+
+
+}
+
+@media all and (min-width:995px) {
+	.navbar-nav li {
+		font-size: 1em; 
+	}
+	.navbar-collapse {
+	float: right;
+	}
+	.soundcloud {
+	height: 550px;
+	}
+	body {
+		min-height: 950px;
+	}
+}
+
+
