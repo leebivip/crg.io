@@ -43,7 +43,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li class="active"><a href="work.php">My Work</a></li>
-                <li><a href="https://dl.dropboxusercontent.com/u/28425203/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -63,7 +63,7 @@
           </br></br></br></br>
           <div class="jumbotron">
             <center><h2>My Work</h2></center>
-            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="https://dl.dropboxusercontent.com/u/28425203/Charles_Gigante_Resume.pdf?dl=1">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
+            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf?dl=1">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
             </br>
           </div>
 

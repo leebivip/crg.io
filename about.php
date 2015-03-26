@@ -41,7 +41,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li class="active"><a href="about.php">About Me</a></li>
                 <li><a href="work.php">My Work</a></li>
-                <li><a href="https://dl.dropboxusercontent.com/u/28425203/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -76,7 +76,7 @@
             <div class="col-lg-4 well" id="about-col-lg-4">
               <center> <!--This centers all of the text in the well -->
                 <h1>Recent Experience <span class="text-muted">[at a glance]</span></h1>
-                <p><a class="btn btn-default" href="https://dl.dropboxusercontent.com/u/28425203/Charles_Gigante_Resume.pdf?dl=1" role="button">Download Full Resume</a></p>
+                <p><a class="btn btn-default" href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf?dl=1" role="button">Download Full Resume</a></p>
                 </br>
                 <h4>Ideally, LLC</h4>
                 <p class="job-title">Director of Product Management <span class="job-dates">(2013 – Present)</span></p>

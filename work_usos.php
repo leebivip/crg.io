@@ -46,7 +46,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li class="active"><a href="work.php">My Work</a></li>
-                <li><a href="https://dl.dropboxusercontent.com/u/28425203/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
