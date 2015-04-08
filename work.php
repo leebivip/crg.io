@@ -43,7 +43,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li class="active"><a href="work.php">My Work</a></li>
-                <li><a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -63,7 +63,7 @@
           </br></br></br></br>
           <div class="jumbotron">
             <center><h2>My Work</h2></center>
-            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="https://www.dropbox.com/s/bxjs13c6mukueab/Charles_Gigante_Resume.pdf?dl=1">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
+            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="https://drive.google.com/uc?export=download&id=0BzG5XvnnmDFNejREQzVJR3o1UXM">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
             </br>
           </div>
 
@@ -239,7 +239,7 @@
 
             <div class="col-md-7">
               <h2 class="featurette-heading">Content Production:</h2>
-              <h3 class="featurette-heading"><span class="text-muted">Monophonic ringtones were (partially) my fault. #sorrynotsorry</span></h3>
+              <h3 class="featurette-heading"><span class="text-muted">Monophonic &amp; Polyphonic ringtones, wallpapers, WAP sites, realtones, ringbacks, etc.</span></h3>
               <p>My experience producting content for mobile devices begin in the year 2001 where I managed the production of ringtones and graphics for a very early player in the mobile content space: <strong>Premium Wireless Services</strong> (eventually purchased by <strong>InfoSpace</strong>). My career path then led me to <strong>Warner Bros.</strong> and <strong>Universal Music</strong> where I was the head of production for all mobile content at both organizations (and effectively responsible for tens of millions of dollars in yearly revenue.)</p>
               <p>While the importance of mobile personalization content has waned since the mid-to-late 2000's, the importance of providing users with rich, engaging content experiences has not. I embrace the ongoing challenge of creating content experiences in mobile applications that serve value to end users, all while maintaining the highest standards that top content publishers expect.</p>
             </div>
