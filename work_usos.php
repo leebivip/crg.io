@@ -7,10 +7,12 @@
   include ("_header.html")
   ?>
 
-    <title>Charlie Gigante | My Work: USOS</title>
+    <title>crg.io | My Work: USOS</title>
     <!-- Image Gallery -->
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
+    <meta name="description" content="Work samples from a campaign Charlie conceived of and execucted for IMG's US Open of Surfing." />
+    <meta name="keywords" content="IMG, USOS, US Open of Surfing, Huntington Beach, California, mobile, mobile apps, image recognition, in8 id, id, in8 mobile">
 
   </head>
 

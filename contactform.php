@@ -7,7 +7,9 @@
   include ("_header.html")
   ?>
 
-    <title>Charlie Gigante | Contact</title>
+    <title>crg.io | Contact</title>
+    <meta name="description" content="Contact Charlie for work opportunities and/or interesting banter." />
+    <meta name="keywords" content="contact, email, charlie, crg.io, contact form, e-mail">
 
   </head>
 

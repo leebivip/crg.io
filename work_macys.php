@@ -7,7 +7,9 @@
   include ("_header.html")
   ?>
 
-    <title>Charlie Gigante | My Work: Macy's</title>
+    <title>crg.io | My Work: Macy's</title>
+    <meta name="description" content="View work samples from a mobile project for Macy's that Charlie worked on." />
+    <meta name="keywords" content="mobile, content, mobile app, new york city, producer, marketing, project manager, resume, Macys, Macy's, photos, in8 id, in8 mobile">
 
   </head>
 
