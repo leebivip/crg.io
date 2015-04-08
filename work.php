@@ -7,7 +7,7 @@
   include ("_header.html")
   ?>
 
-    <title>crg.io | My Work</title>
+    <title>My Work | crg.io</title>
     <meta name="description" content="Digital media professional specializing in Mobile Apps, Web Development, Project &amp; Content Management, Digital Marketing, Social Media, Music and more." />
     <meta name="keywords" content="mobile, content, mobile apps, producer, marketing, social media, project manager, resume, work samples, Macy's, in8 iD, Warner Bros., Universal Music Group, music recognition">
 

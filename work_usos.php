@@ -7,7 +7,7 @@
   include ("_header.html")
   ?>
 
-    <title>crg.io | My Work: USOS</title>
+    <title>Work Example: IMG's US open of Surfing | crg.io</title>
     <!-- Image Gallery -->
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
