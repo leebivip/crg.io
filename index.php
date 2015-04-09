@@ -7,7 +7,7 @@
   include ("_header.html")
   ?>
 
-    <title>digital media professional in New York City | crg.io</title>
+    <title>crg.io | Digital Media Professional | New York City</title>
     <meta name="description" content="Charlie is a digital media professional specializing in Mobile Apps, Web Development, Project &amp; Content Management, Digital Marketing, Social Media, Music and more." />
     <meta name="keywords" content="mobile, content, mobile app, new york city, producer, marketing, social media, project manager, music, resume, brooklyn, nyc">
 
