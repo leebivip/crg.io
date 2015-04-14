@@ -7,7 +7,7 @@
   include ("_header.html")
   ?>
 
-    <title>My Interests| Music &amp; Photography | crg.io</title>
+    <title>My Interests | Music &amp; Photography | crg.io</title>
     <meta name="description" content="Charlie's interests include photography, music and more. Browse examples of his content here." />
     <meta name="keywords" content="music, photography, interests, personal, new york city, new york, nyc">
 
