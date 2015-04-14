@@ -268,6 +268,7 @@
               <h2 class="featurette-heading">Web Development:</h2>
               <h3 class="featurette-heading"><span class="text-muted">HTML5, CSS3, PHP, MySQL, JavaScript, etc.</span></h3>
               <p>While still relatively new to web dev, I have a solid foundation in a variety of languages and recently earned a <em>Certificate in Web Development</em> from <strong>New York University</strong>.</p>
+              <p>Pay me a visit on <a href="https://github.com/cgigante" target="_blank">GitHub</a> to review my code.</p>
               <p>
                 Live sites which demonstrate some of my skills include the one you're looking at along with the following:</br>
                 <p><a href="http://cms.crg.io" target="_blank"><strong>CMS Documentation</strong></a></br>To support new users of the Ideally CMS, I composed and coded a user guide which can be reviewed here on my staging server.</p>
