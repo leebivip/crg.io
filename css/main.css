@@ -51,7 +51,7 @@ a {
 		/*background-color: lightgrey;*/
 		color: black;
 		text-decoration: underline;
-	} 
+	}
 
 .active { 
 	background-color: #F4F4F4;    /* this changes the background color of an "active" nav menu item */
