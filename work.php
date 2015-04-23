@@ -271,8 +271,8 @@
               <p>Pay me a visit on <a href="https://github.com/cgigante" target="_blank">GitHub</a> to review my code.</p>
               <p>
                 Live sites which demonstrate some of my skills include the one you're looking at along with the following:</br>
-                <p><a href="http://cms.crg.io" target="_blank"><strong>CMS Documentation</strong></a></br>To support new users of the Ideally CMS, I composed and coded a user guide which can be reviewed here on my staging server.</p>
                 <p><a href="http://dumbo.space" target="_blank"><strong>Dumbo Roof Deck</strong></a></br>I've put together this simple site to help a friend rent out the roof deck at his office. Copywriting, coding and most of the photography is my own.</p>
+                <p><a href="http://cms.crg.io" target="_blank"><strong>CMS Documentation</strong></a></br>To support new users of the Ideally CMS, I composed and coded a user guide which can be reviewed here on my staging server.</p>
                 <p><strong><a href="http://nycindub.crg.io/" target="_blank">NYC in Dub</a></strong></br>This is a site I developed for a friend who is pitching the idea of a New York City-focused music journalism site to potential investors. It was built in PHP and most of the site content is being dynamically fed from a MySQL database I manage. This is an ambitious project that is very much still under construction, but I believe it represents my current abilities quite nicely. If you are interested in partnering on this site, please let me know. I would love to begin publishing content to it!</p>
                 <p>More coming soon.</p>
                 <!-- <p><strong><a href="http://www.oddist.net" role="button" target="_blank">ODDIST.net</a></strong></br>This site, built on the Bootstrap framework, is simply a single page musician website. Simple and to the point.</p></br> -->
