@@ -4,7 +4,7 @@
 
 			<div class="col-lg-4" id="footerLeft">
 				<div class="socialButtons">
-					<h5>&copy; 20<?php echo date("y"); ?> Charlie Gigante</h5>
+					<h5>&copy; 20<?php echo date("y"); ?> crg.io</h5>
 				</div>
 			</div>
 

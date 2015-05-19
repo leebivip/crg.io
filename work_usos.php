@@ -17,6 +17,8 @@
   </head>
 
   <body>
+<!-- Google Analytics Code -->
+<?php include_once("analyticstracking.php") ?>
 
 <!-- Facebook Javascript Code -->
 <div id="fb-root"></div>

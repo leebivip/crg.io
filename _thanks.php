@@ -7,11 +7,15 @@
   include ("_header.html")
   ?>
 
-    <title>Charlie Gigante | Thanks!</title>
+    <title>Thanks! | crg.io</title>
 
   </head>
 
   <body>
+
+<!-- Google Analytics Code -->
+<?php include_once("analyticstracking.php") ?>
+
         <div class="navbar navbar-fixed-top" role="navigation">
           <div class="container">
 
