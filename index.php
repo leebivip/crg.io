@@ -4,10 +4,10 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
-    <title>crg.io | Digital Media Professional | New York City</title>
+    <title>crg.io | Mobile &amp; Web Technology | New York City</title>
     <meta name="description" content="Charlie is a digital media professional specializing in Mobile Apps, Web Development, Project &amp; Content Management, Digital Marketing, Social Media, Music and more." />
     <meta name="keywords" content="mobile, content, mobile app, new york city, producer, marketing, social media, project manager, music, resume, brooklyn, nyc">
 
@@ -48,8 +48,7 @@
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
-                <!-- Direct Download Link: https://drive.google.com/uc?export=download&id=0BzG5XvnnmDFNejREQzVJR3o1UXM -->
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -119,9 +118,9 @@
             <a href="about.php">
               <div class="col-lg-4">
                 <div class="featurette-main1">
-                  <span class="glyphicon glyphicon-user"></span>
+                  <h1><span class="glyphicon glyphicon-user"></span></h1>
                   <h2>About Me</h2>
-                  <p class="fontchange-p">Click here to read a short bio on my history and browse through recent professional experience.</p>
+                  <p class="fontchange-p">Read a short bio and browse through recent professional experience.</p>
                 </div>
               </div><!-- /.col-lg-4 -->
             </a>
@@ -130,7 +129,7 @@
             <a href="work.php">
               <div class="col-lg-4">
                 <div class="featurette-main2">
-                  <span class="glyphicon glyphicon-briefcase"></span>
+                  <h1><span class="glyphicon glyphicon-briefcase"></span></h1>
                   <h2>My Work</h2>
                   <!--  <p class="fontchange-p">Browse through samples of my work: mobile apps, personalization content and websites.</p>-->
                   <p class="fontchange-p">
@@ -146,7 +145,7 @@
             <a href="interests.php">
               <div class="col-lg-4">
                 <div class="featurette-main3">
-                  <span class="glyphicon glyphicon-headphones"></span>
+                  <h1><span class="glyphicon glyphicon-heart"></span></h1>
                   <h2>My Interests</h2>
                   <p class="fontchange-p">A collection of my original music productions and photography.</p>
                 </div>

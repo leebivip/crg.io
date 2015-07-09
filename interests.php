@@ -4,7 +4,7 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
     <title>My Interests | Music &amp; Photography | crg.io</title>
@@ -48,7 +48,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li class="active"><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -66,23 +66,22 @@
           <!-- Main Content -->
           </br></br></br></br>
           <div class="jumbotron jumbotron-interests">
-            <center><h2>Interests</h2></center>
+            <center><h2><span class="glyphicon glyphicon-heart"></span> Interests</h2></center>
             <!-- <h4 class="jumbotron-text"></h4> -->
             </br>
           </div>
 
 
           <div class="row">
-            <div class="col-lg-12">
+
               <div class="col-lg-7">
                 <img class="img-about" src="images/funstuff.jpg" alt="Vinyl Record">
-                <h2>Music</h2>
-                <p class="bio">I am a musician of over 25 years, having begun as a professionally trained jazz drummer. I have since progressed into a multi-instrumentalist electronic music composer and DJ. I have a vast collection of vinyl records and possess exhaustive knowledge of popular music. My recent musical compositions are collected in the Soundcloud player you see here. Please reach out to me if you are interested in collaborating or commissioning original work.</p>
+                <h2><span class="glyphicon glyphicon-headphones"></span> Music</h2>
+                <p class="bio">I am a musician of over 25 years, having begun as a professionally trained jazz drummer. I have since progressed into a multi-instrumentalist electronic music composer and DJ. I have a vast collection of vinyl records and possess exhaustive knowledge of popular music. My recent musical compositions are collected in the Soundcloud player you see here. Please <a href="contactform.php">reach out to me</a> if you are interested in collaborating or commissioning original work.</p>
               </div>
               <div class="col-lg-5">
                 <iframe class="soundcloud" width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/44489902%3Fsecret_token%3Ds-kDoTs&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-              </div>
-            </div>            
+              </div>       
             
           </div><!-- /.row -->
 
@@ -92,7 +91,7 @@
 
           <div class="row">
             <div class="col-lg-12">
-              <h2>Photography</h2>
+              <h2><span class="glyphicon glyphicon-camera"></span> Photography</h2>
               <p class="bio">Though only an amateur, I do possess a deep fondness for the art of photography and spend considerable time with a lens focused on the world around me. I have done professional runway shoots for fashion blog, <a href="http://www.modernglossy.com/tag/charles-gigante/" target="_blank">Modern Glossy</a>, and often use my camera to document New York City's endlessly interesting cityscape.</p>
               </p>
             </div>

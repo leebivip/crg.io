@@ -4,7 +4,7 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
     <title>My Work | crg.io</title>
@@ -47,7 +47,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li class="active"><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -66,8 +66,8 @@
 <!-- Main Content -->
           </br></br></br></br>
           <div class="jumbotron">
-            <center><h2>My Work</h2></center>
-            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="https://drive.google.com/uc?export=download&id=0BzG5XvnnmDFNejREQzVJR3o1UXM">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
+            <center><h2><span class="glyphicon glyphicon-briefcase"></span> My Work</h2></center>
+            <h4 class="jumbotron-text">Please browse through select work samples and information below. For additional details on my background, please don't hesitate to <a href="<?php echo $resume ?>" target="_blank">download my resume</a> and <a href="/contactform.php">reach out to me</a> with any questions you may have.</h4>
             </br>
           </div>
 
@@ -82,14 +82,15 @@
           <div class="row featurette">
             <div class="col-md-7">
               <h2 class="featurette-heading">Mobile App Development:</h2>
-              <h3 class="featurette-heading"><span class="text-muted"> Ideally, LLC | Mobile Messaging</span></h3>
+              <h3 class="featurette-heading"><span class="text-muted"> ideally | Shmap Mobile Messaging</span></h3>
               <p>Current duties include overseeing the development of a mobile messaging application which utilizes iBeacon and Geo-location technology. Product requirements documentation, UI/UX and app design have also been a focus along with the creation of information architecture and documentation for a custom-built content management system. This CMS is designed specifically to both compose unique rich media content experiences in the app and to create the locations (iBeacons and/or Geofences) which trigger these content experiences.</p>              
               </br>
-              <!-- <p>For a sampling of what the CMS I designed looks like, please review the CMS documentation I have composed and coded <a href="http://cms.crg.io" target="_blank">here</a>.</p> -->
             </div>
 
             <div class="col-md-5">
-              <img class="img-responsive img-work" src="images/work/ideally_text.jpg" alt="Ideally" title="Ideally">
+            	<a href="http://www.ideally.net" target="_blank" class="thumbnail">
+              	<img class="img-responsive img-work" src="images/work/ideally2.jpg" alt="Ideally" title="Ideally">
+              </a>
             </div>
           </div>
 
@@ -205,10 +206,10 @@
                       </div>
                       <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
-                          <div class="col-lg-6"><p>Developed and executed two campaigns in conjunction with <strong>Verizon Wireless</strong> for <strong>Super Bowl XLVI</strong>:
-                            One national campaign built around an advertisement in USA Today and one on-site at Super Bowl Village in Indianapolis.</br>
-                            <span>"Today's Your Day"</span> Campaign Overview: Users were instructed to snap a photo of a specific iD-activated Verizon ad in USA Today to be entered in a drawing for a chance to win 2 tickets to the following year's Super Bowl.</br>
-                            <strong>"Go For The Trophy"</strong> Campaign Overview: Indianapolis locals and visitors to the city were asked to snap a photo of the Super Bowl XLVI Trophy logo while inside the Super Bowl village.</br>
+                          <div class="col-lg-6"><p>Developed and executed two campaigns in conjunction with <span class="superBowlBold">Verizon Wireless</span> for <span class="superBowlBold">Super Bowl XLVI</span>:
+                            One national campaign built around an advertisement in USA Today and one on-site at Super Bowl Village in Indianapolis.</br></br>
+                            <span class="label label-primary superBowlHeader">"Today's Your Day" campaign:</span><br><br>Users were instructed to snap a photo of a specific iD-activated Verizon ad in USA Today to be entered in a drawing for a chance to win 2 tickets to the following year's Super Bowl.</br></br>
+                            <span class="label label-primary superBowlHeader">"Go For The Trophy" campaign:</span><br><br>Indianapolis locals and visitors to the city were asked to snap a photo of the Super Bowl XLVI Trophy logo while inside the Super Bowl village.</br></br>
                             All entrants were entered into a random-drawing sweepstakes. The grand prize winner took home 2 tix to Super Bowl XLVI and 25 additional winners received autographed NFL merchandise.</p></div>
                           <div class="col-lg-6"><img class="img-small" src="images/work/superbowl5.jpg"></div>
                         </div>
@@ -225,10 +226,41 @@
             </div><!-- End col-md-7 -->
 
             <div class="col-md-5">
-              <img class="img-responsive img-work" src="images/work/in83.png" alt="in8 iD" title="in8 iD">
+              <img class="img-responsive img-work" src="images/work/in8/in8.png" alt="in8 iD" title="in8 iD">
             </div>
           </div>
 <!-- End in8iD -->
+
+
+
+
+          <hr class="featurette-divider">
+
+
+
+
+<!-- Begin Web Development -->
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Web Development:</h2>
+              <h3 class="featurette-heading"><span class="text-muted">HTML5, CSS3, PHP, MySQL, JavaScript, etc.</span></h3>
+              <p>I have a solid foundation in a variety of languages and earned a <em>Certificate in Web Development</em> from <strong>New York University</strong>.</p>
+              <p>Pay me a visit on <a href="https://github.com/cgigante" target="_blank">GitHub</a> to review my code.</p>
+              <p>
+                Live sites which demonstrate some of my skills include the one you're looking at along with the following:</br>
+                <p><a href="http://dumbo.space" target="_blank"><strong>Dumbo Roof Deck</strong></a></br>I've put together this simple site to help a business partner rent out the roof deck at his office. Copywriting, coding and most of the photography is my own.</p>
+                <p><a href="http://ideally.net" target="_blank"><strong>ideally.net</strong></a></br>To support the launch of my company, ideally, I built this teaser website.</p>
+                <!-- <p><a href="http://cms.crg.io" target="_blank"><strong>CMS Documentation</strong></a></br>To support new users of the Ideally CMS, I composed and coded a user guide which can be reviewed here on my staging server.</p> -->
+                <!-- <p><strong><a href="http://nycindub.crg.io/" target="_blank">NYC in Dub</a></strong></br>This is a site I developed for a friend who is pitching the idea of a New York City-focused music journalism site to potential investors. It was built in PHP and most of the site content is being dynamically fed from a MySQL database I manage. This is an ambitious project that is very much still under construction, but I believe it represents my current abilities quite nicely. If you are interested in partnering on this site, please let me know. I would love to begin publishing content to it!</p>
+                <p>More coming soon.</p> -->
+                <!-- <p><strong><a href="http://www.oddist.net" role="button" target="_blank">ODDIST.net</a></strong></br>This site, built on the Bootstrap framework, is simply a single page musician website. Simple and to the point.</p></br> -->
+              </p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive img-work" src="images/NYU-square.png" alt="NYU">
+            </div>
+          </div>
+<!-- End Web Development -->
 
 
 
@@ -257,35 +289,7 @@
 
 
 
-          <hr class="featurette-divider">
 
-
-
-
-
-
-<!-- Begin Web Development -->
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Web Development:</h2>
-              <h3 class="featurette-heading"><span class="text-muted">HTML5, CSS3, PHP, MySQL, JavaScript, etc.</span></h3>
-              <p>While still relatively new to web dev, I have a solid foundation in a variety of languages and recently earned a <em>Certificate in Web Development</em> from <strong>New York University</strong>.</p>
-              <p>Pay me a visit on <a href="https://github.com/cgigante" target="_blank">GitHub</a> to review my code.</p>
-              <p>
-                Live sites which demonstrate some of my skills include the one you're looking at along with the following:</br>
-                <p><a href="http://dumbo.space" target="_blank"><strong>Dumbo Roof Deck</strong></a></br>I've put together this simple site to help a friend rent out the roof deck at his office. Copywriting, coding and most of the photography is my own.</p>
-                <!-- <p><a href="http://cms.crg.io" target="_blank"><strong>CMS Documentation</strong></a></br>To support new users of the Ideally CMS, I composed and coded a user guide which can be reviewed here on my staging server.</p> -->
-                <p><strong><a href="http://nycindub.crg.io/" target="_blank">NYC in Dub</a></strong></br>This is a site I developed for a friend who is pitching the idea of a New York City-focused music journalism site to potential investors. It was built in PHP and most of the site content is being dynamically fed from a MySQL database I manage. This is an ambitious project that is very much still under construction, but I believe it represents my current abilities quite nicely. If you are interested in partnering on this site, please let me know. I would love to begin publishing content to it!</p>
-                <p>More coming soon.</p>
-                <!-- <p><strong><a href="http://www.oddist.net" role="button" target="_blank">ODDIST.net</a></strong></br>This site, built on the Bootstrap framework, is simply a single page musician website. Simple and to the point.</p></br> -->
-          
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-responsive img-work" src="images/NYU-square.png" alt="NYU">
-            </div>
-          </div>
-<!-- End Web Development -->
 
           <hr class="featurette-divider">
 

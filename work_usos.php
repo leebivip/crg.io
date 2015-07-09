@@ -4,7 +4,7 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
     <title>Work Example: IMG's US open of Surfing | crg.io</title>
@@ -50,7 +50,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li class="active"><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>

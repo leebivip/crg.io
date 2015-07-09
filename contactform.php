@@ -4,7 +4,7 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
     <title>Contact | crg.io</title>
@@ -47,7 +47,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li class="active"><a href="contactform.php">Contact</a></li>
@@ -83,8 +83,46 @@
           <div class="row featurette">
 
             <section class="col-md-6">
-              
-              <form name="contactform" method="post" action="_send_form_email.php">
+                    <section id="contact">
+                      <div class="contact-div">
+                          <!-- <h2 class="contactUs">Contact Us</h2> -->
+                          <form name="sentMessage" id="contactForm" novalidate>
+                              <div class="row control-group">
+                                  <div class="form-group floating-label-form-group controls">
+                                      <label>Name</label>
+                                      <input type="text" class="form-control" placeholder="Tell me who you are." id="name" required data-validation-required-message="Please enter your name.">
+                                      <p class="help-block text-danger"></p>
+                                  </div>
+                              </div>
+                              <div class="row control-group">
+                                  <div class="form-group floating-label-form-group controls">
+                                      <label>Email Address</label>
+                                      <input type="email" class="form-control" placeholder="your@emailaddress.com" id="email" required data-validation-required-message="Please enter your email address.">
+                                      <p class="help-block text-danger"></p>
+                                  </div>
+                              </div>
+                              <div class="row control-group">
+                                  <div class="form-group floating-label-form-group controls">
+                                      <label>Message</label>
+                                      <textarea rows="5" class="form-control" placeholder="What's up?" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                      <p class="help-block text-danger"></p>
+                                  </div>
+                              </div>
+                              <br>
+
+                              <div id="success"></div>
+
+                              <div class="form-group">
+                                  <button type="submit" class="btn btn-success btn-md">Send</button>
+                              </div>
+
+                          </form>
+                      </div>    
+                    </section>       
+
+
+<!-- Original Input Form -->
+              <!-- <form name="contactform" method="post" action="_send_form_email.php">
                
                     <div class="input-group">
                       <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
@@ -117,7 +155,7 @@
                    <input type="submit" value="Submit" id="submit-button" class="btn btn-md btn-success"><a href="_send_form_email.php"></a>
                  </br>
                                      
-              </form>
+              </form> -->
 
             </section>
 
@@ -140,6 +178,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
     
     </div> <!-- End main container "marketing" div -->
 

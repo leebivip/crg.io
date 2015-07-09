@@ -4,7 +4,7 @@
   <head>
 
  <?php
-  include ("_header.html")
+  include ("_header.php")
   ?>
 
     <title>About Charlie | crg.io</title>
@@ -46,7 +46,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li class="active"><a href="about.php">About Me</a></li>
                 <li><a href="work.php">My Work</a></li>
-                <li><a href="https://drive.google.com/file/d/0BzG5XvnnmDFNejREQzVJR3o1UXM/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="<?php echo $resume ?>" target="_blank">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/charlesgigante" target="_blank">Linked In</a></li>
                 <li><a href="interests.php">Interests</a></li>
                 <li><a href="contactform.php">Contact</a></li>
@@ -67,7 +67,7 @@
           <div class="row">
             <div class="col-lg-8">
               <div class="about-me-main">
-                <center><h1>About Me</h1></center>
+                <center><h1><span class="glyphicon glyphicon-user"></span> About Me</h1></center>
                 <div>
                   <img class="profile-pic" alt="Charlie's Picture with dog, Izzy." title="Charlie with dog, Izzy." src="images/aboutme-square.jpg" />
                   <p class="bio">I began my digital and mobile industry affair in 2001 - the days of monophonic ringtones, grayscale graphics and brick phones. Over the past decade+, I have played a central role at several major innovators and content publishers in the mobile space. Whether managing the mobile personalization for top-tiered brands such as <strong><em>DC Comics</em></strong> and <strong><em>Harry Potter</em></strong> at <strong>Warner Bros.</strong>, being the production head of <strong>Universal Music Group</strong>'s multi-million dollar ringtone business, or developing rich promotional campaigns for consumer brands using image recognition technology, I have consistently been on the front-lines of high-profile digital endeavors for years.
@@ -81,7 +81,7 @@
             <div class="col-lg-4 well" id="about-col-lg-4">
               <center> <!--This centers all of the text in the well -->
                 <h1>Recent Experience <span class="text-muted">[at a glance]</span></h1>
-                <p><a class="btn btn-default" href="https://drive.google.com/uc?export=download&id=0BzG5XvnnmDFNejREQzVJR3o1UXM" role="button">Download Full Resume</a></p>
+                <p><a class="btn btn-default" href="<?php echo $resume ?>" target="_blank" role="button">Download Full Resume</a></p>
                 </br>
                 <h4>Ideally, LLC</h4>
                 <p class="job-title">Director of Product Management <span class="job-dates">(2013 – Present)</span></p>

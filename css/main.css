@@ -28,6 +28,10 @@ a {
 	color: #AB82FF; /* This sets the color of all links on site */
 }
 
+a:hover {
+	text-decoration: none;
+	color: silver;
+}
 
 /* Navbar Styling */
 
@@ -40,7 +44,6 @@ a {
 
 
 /* sets navbar link text color */ 
-.navbar .nav > li > a, 
 .navbar .nav > li > a { 
 	color: black;
 } 
@@ -51,12 +54,15 @@ a {
 		/*background-color: lightgrey;*/
 		color: black;
 		text-decoration: underline;
+		background-color: #F4F4F4;
 	}
 
 .active { 
-	background-color: #F4F4F4;    /* this changes the background color of an "active" nav menu item */
+	background-color: #AB82FF;
 	text-decoration: underline;
+/* this changes the background color of an "active" nav menu item */
 }
+
 
 /* These control the styling of the "Charlie Gigante" logo */
 .navbar-brand {
@@ -98,8 +104,8 @@ a {
 }
 
 
-/* Main/Index page */
-.featurette-main1 {
+/* ******************** Main/Index page ******************** */
+/*.featurette-main1 {
 	background-color: #AB82FF;
 }
 
@@ -110,9 +116,17 @@ a {
 .featurette-main3 {
 	background-color: #9FB6CD;
 }
+*/
 
 .featurette-main1, .featurette-main2, .featurette-main3 {
-	min-height: 215px;
+	background-color: clouds;
+	border: 1px dotted silver;
+}
+
+
+.featurette-main1, .featurette-main2, .featurette-main3 {
+	/*min-height: 215px;*/
+	height: 260px;
 	padding: 20px;
 	margin-bottom: 10px;
 	border-radius: 50px;
@@ -196,7 +210,7 @@ a {
 }
 
 
-/*Interests*/
+/* Interests */
 .jumbotron-interests {
 	max-height: 100px;
 	padding-top: 0;
@@ -259,6 +273,45 @@ li {
 	text-align: left;
 }
 
+
+/* *******************Contact Form************************** */
+#contact {
+    background: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    opacity: 0.95;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.contact-div {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contactForm {
+    padding-left: 20px;
+    max-width: 475px;
+}
+
+.form-control {
+    max-width: 450px;
+    margin-left: 0;
+}
+
+.control-group {
+    width: 100%;
+}
+
+div.alert.alert-success {
+	max-width: 85%;
+}
+
+
 /* ************* Footer styling *************** */
 
 footer {
@@ -299,6 +352,15 @@ footer {
 	}
 
 
+
+.superBowlHeader {
+	font-size: 1em;
+}
+
+.superBowlBold {
+	font-weight: bold;
+	color: #9FB6CD;
+}
 
 
 /* The following media queries are to ensure the Bootstrap carousel text is responsive. (it previously was not) */
