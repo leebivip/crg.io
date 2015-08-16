@@ -250,6 +250,10 @@
               <section id="websites" class="well">
                 <p>This simple site was created to help a business partner rent out the roof deck at his office. Copywriting, coding and most of the photography is my own.</p>
                 <h4><a href="http://dumbo.space" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> dumbo.space</a></h4>
+
+                <p>I redesigned a website for a local Brooklyn tattoo shop. Here is what I pitched:</p>
+                <h4><a href="http://tattooshop.crg.io" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> tattooshop.crg.io</a></h4>
+
                 <p>To support the launch of my company, I built these two teaser websites for our company (ideally) and our application (Shmap):</p>
                 <h4><a href="http://ideally.net" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> ideally.net</a></h4>
                 <h4><a href="http://shmap.me/" target="_blank"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> shmap.me</a><h4>
